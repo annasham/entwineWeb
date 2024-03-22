@@ -1,0 +1,240 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'GT Flexa Trial';
+    margin: 0;
+}
+
+.navBar
+{
+    display: flex;
+    height: 100px;
+    padding: 10px 30px; /* Adjust horizontal padding as needed */
+    background: rgba(15, 15, 15, 0.70);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    justify-content: space-between; /* Align items along the main axis (horizontally) */
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+
+#buttonSocials {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 44px;
+    width: 96px;
+    margin: 0 60px;
+}
+
+#social {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--dark-gray, #1E1E1E);
+    border-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#button{
+    color: var(--dark-gray, #1E1E1E);
+    font-family: "GT Flexa Trial";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--Gray-White, #FFF);
+    background: var(--Gray-White, #FFF);
+}
+
+#button:hover{
+    color: white;
+    background: #0f0f0f;
+}
+
+h1{
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90px;
+    margin: 0 0 0 0;
+}
+
+#green{
+    color: var(--green, #ADFF00);
+    font-family: "GT Flexa Trial";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90px; /* 93.75% */
+}
+
+p{
+    font-family: "GT Flexa Trial";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+}
+
+.block{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.subBlock1{
+    background-color: #ADFF00;
+    color: black;
+    display: flex;
+    padding: 10px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.subBlock2{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.subBlock3{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.subBlock4{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+
+.imageBlock1{
+    background-image: url(/assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 919px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.imageBlock2{
+    background-image: url(/assets/phone1.svg);
+    background-color: #1E1E1E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 919px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.imageBlock3{
+    background-image: url(/assets/block3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    height: 919px;
+    width: 1556px;
+}
+
+.imageBlock4{
+    background-image: url(/assets/screen2.svg);
+    background-color: #1E1E1E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 919px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+#footerLogo{
+    background-color: #0f0f0f;
+    display: flex;
+    height: 100px;
+    padding: 10px 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 441px;
+    align-self: stretch;
+}
+
+footer{
+    background-color: #0f0f0f;
+    display: flex;
+    padding: 0px 297px 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#footercol p{
+    color: var(--Gray-White, #FFF);
+    font-family: "GT Flexa Trial";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 83.333% */
+}
+
+#footercol h2{
+    color: var(--Gray-White, #FFF);
+    font-family: "GT Flexa Trial";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 83.333% */
+}
